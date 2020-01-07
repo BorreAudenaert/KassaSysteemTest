@@ -22,6 +22,7 @@ public class OverzichtTerras2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent startIntentRestaurant = new Intent(getApplicationContext(), OverzichtRestaurant.class);
                 startActivity(startIntentRestaurant);
+                //setContentView(R.layout.activity_overzicht_restaurant);
                 finish();
             }
         });

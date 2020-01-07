@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:screenOrientation="landscape"
+    android:label="@string/titel_terras2"
     tools:context=".OverzichtTerras2">
 
     <Button

@@ -11,19 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".OverzichtTerras2"
-            android:screenOrientation="landscape"
-            android:label="@string/titel_terras2"/>
-        <activity android:name=".OverzichtTerras1"
-            android:screenOrientation="landscape"
-            android:label="@string/titel_terras1"/>
+        <activity android:name=".tafelOverzicht"></activity>
+        <activity
+            android:name=".OverzichtTerras2"
+            android:label="@string/titel_terras2" />
+        <activity
+            android:name=".OverzichtTerras1"
+            android:label="@string/titel_terras1" />
         <activity
             android:name=".OverzichtCafe"
-            android:screenOrientation="landscape"
             android:label="@string/titel_cafe" />
         <activity
             android:name=".OverzichtRestaurant"
-            android:screenOrientation="landscape"
             android:label="@string/titel_restaurant" />
         <activity android:name=".MainActivity">
             <intent-filter>

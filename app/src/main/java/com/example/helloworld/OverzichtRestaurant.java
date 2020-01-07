@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +14,6 @@ public class OverzichtRestaurant extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_overzicht_restaurant);
 
@@ -53,6 +53,16 @@ public class OverzichtRestaurant extends AppCompatActivity {
                 Intent startIntentTerras2 = new Intent(getApplicationContext(), OverzichtTerras2.class);
                 startActivity(startIntentTerras2);
                 finish();
+            }
+        });
+
+        final Button btnTafel1 = (Button) findViewById(R.id.btnTafel1);
+        btnTafel1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntentOverzichtTafel = new Intent(getApplicationContext(), tafelOverzicht.class);
+                startActivityForResult(startIntentOverzichtTafel, 1);
+                //btnTafel1.setBackgroundColor(Color.GREEN);
             }
         });
 
