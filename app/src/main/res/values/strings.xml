@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kassasysteem San George</string>
+    <string name="titel_restaurant">Restaurant</string>
+    <string name="titel_cafe">Cafe</string>
+    <string name="titel_terras1">Terras1</string>
+    <string name="titel_terras2">Terras2</string>
+</resources>
